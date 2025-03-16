@@ -7,7 +7,7 @@ USER root
 ENV PUPPETEER_SKIP_DOWNLOAD=true
 
 # Install latest Flowise globally (specific version can be set: flowise@1.0.0)
-RUN npm install -g flowise@2.2.5
+RUN npm install -g flowise@2.2.7-patch.1
 
 # Stage 2: Runtime stage
 FROM node:20-alpine
